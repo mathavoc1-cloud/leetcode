@@ -1,10 +1,13 @@
 #declaracao da classe
 class Gafanhoto: 
     def __init__(self): #-> metodo construtor:
+        
     #atributos
         self.nome = ""
         self.idade = 0
-        #metodos de instancia
+
+
+    #metodos de instancia
     def aniversario(self):
         self.idade += 1
     def mensagem(self):
