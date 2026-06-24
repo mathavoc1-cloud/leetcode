@@ -16,7 +16,7 @@ class Gafanhoto:
 #declaracao dos objetos
 obj = Gafanhoto() #<- chamada de instanciacao
 obj.nome = 'Maria'
-obj.idade = 27 #-> n tem parenteses eh um metodo
+obj.idade = 27 #-> n tem parenteses, eh um atributo
 obj.aniversario() #-> tem parenteses, logo eh um metodo
 print(obj.mensagem())
 
@@ -24,4 +24,10 @@ print(obj.mensagem())
 g2 = Gafanhoto ()
 g2.nome = "Mauro"
 g2.idade = 33
+g2.aniversario()
 print(g2.mensagem())
+
+g3 = Gafanhoto()
+g3.nome = "Matheus"
+g3.idade = 27
+print(g3.mensagem())
