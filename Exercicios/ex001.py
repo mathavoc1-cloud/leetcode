@@ -19,5 +19,10 @@ p = Perfil()#<- chamada de instanciacao
 p.nome = 'Matheus'
 p.idade = 27 #-> n tem parenteses, eh um atributo
 p.aniversario()#-> tem parenteses, logo eh um metodo
+print(p.mensagem())
 
+p1 = Perfil()
+p1.nome = 'Carlos'
+p1.idade = 45
+p1.aniversario()
 print(p.mensagem())
