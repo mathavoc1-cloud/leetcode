@@ -7,3 +7,5 @@ class Caneta:
 
     def __init__(self, caneta_cor):
         self.caneta_cor = []
+
+        
