@@ -75,9 +75,10 @@ class ControleRemoto:
 c = ControleRemoto(canal = 3, volume = 4)
 while True:
     c.mostar_tv()
-    comando = str(input(f"\n < CH >  - VOL + "))
+    comando = str(input(f"\n < CH{c.canal_atual} >  - VOL {c.volume_atual} + "))
     match comando:
         case '0':
+            print("desligando...")
             break
         case '@':
             c.liga_desliga()
